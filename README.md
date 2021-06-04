@@ -36,7 +36,7 @@ here :
 
       host:'localhost',
       user:'root',
-      password:'', //empty for window
+      password:'',
       database: 'testdb'
 
   });
