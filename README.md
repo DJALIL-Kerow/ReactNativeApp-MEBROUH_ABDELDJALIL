@@ -3,11 +3,12 @@ Mobile App with React Native+ExpressJS+Mysql/ MERBOUH Abdeldjalil
 
 the APP is about displaying user informations from a table in database to express the fetch in react native app  
 
-I-Bulding the APP
+**I-Bulding the APP**
 
 1- go to the file path 
 
 example : ```cd C:\APPSTEST\ReactNativeApp-MEBROUH_ABDELDJALIL-main``` on my PC
+and install:
 
 2-```npm install express```
 
@@ -19,7 +20,7 @@ example : ```cd C:\APPSTEST\ReactNativeApp-MEBROUH_ABDELDJALIL-main``` on my PC
 
 6-Everything is set up
 
-II-SET-UP/START the APP
+**II-SET-UP/START the APP**
 
 1- start XAMPP in and Start Apache nad MySQL
 
