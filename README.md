@@ -26,7 +26,20 @@ II-SET-UP/START the APP
 ![image](https://user-images.githubusercontent.com/84937719/120858040-17264c80-c57a-11eb-9acf-e4c0fbd55a98.png)
 
 2- setting up the DATABASE ( read the file **users.sql** i imported it from my mysql database)
+PS : change the setting to your settings
+change it on **server.js** 
+here :
 
+```
+  var con = mysql.createConnection({
+
+      host:'localhost',
+      user:'root',
+      password:'', //empty for window
+      database: 'testdb'
+
+  });
+```
 ![image](https://user-images.githubusercontent.com/84937719/120858084-2907ef80-c57a-11eb-8d0c-c37f099c76f5.png)
 
 3- run the server.js  
