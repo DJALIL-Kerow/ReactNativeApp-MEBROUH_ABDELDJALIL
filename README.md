@@ -27,7 +27,7 @@ II-SET-UP/START the APP
 
 3- run the server.js  
 
-```nodemone server.js```
+```nodemon server.js```
 
 4- open another cmd on the same as the earlier path
 
