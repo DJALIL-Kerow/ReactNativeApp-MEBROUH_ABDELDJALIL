@@ -19,14 +19,14 @@ componentDidMount(){
   render() {
     return (
       <View >
-       <Text style={{backgroundColor:'#abc123', padding:10,margin:10,textAlign: 'center',fontWeight: 'bold',fontSize: 18,}} >Welcome To MySql List</Text>
+       <Text style={{backgroundColor:'#a9a9a9', padding:10,margin:10,textAlign: 'center',fontWeight: 'bold',fontSize: 18,}} >Welcome To MySql List</Text>
 
        <FlatList
        data={this.state.data}
        keyExtractor={(item,index) => index.toString()}
        renderItem={({item}) =>
 
-       <View style={{backgroundColor:'#abc123',padding:10,margin:10}}>
+       <View style={{backgroundColor:'#878787',padding:10,margin:10}}>
           <Text style={{color:'#fff', fontWeight:'bold'}}>Name: {item.name}</Text>
           <Text style={{color:'#fff'}}>Email: {item.email}</Text>
           <Text style={{color:'#fff'}}>Gender: {item.gender}</Text>
